@@ -1,0 +1,29 @@
+{
+	"name": "covid-19",
+	"version": "1.0.0",
+	"description": "n# react.js hello world --- first, you should install node and npm.",
+	"proxy": "https://edata.ndtv.com/cricket/coronavirus/data.json",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "webpack-dev-server --hot"
+	},
+	"author": "Anas Khan",
+	"license": "ISC",
+	"dependencies": {
+		"@uiw/react-baidu-map": "^1.17.1",
+		"axios": "^0.19.2",
+		"babel-core": "^6.26.3",
+		"babel-loader": "^6.4.1",
+		"babel-preset-es2015": "^6.24.1",
+		"babel-preset-react": "^6.24.1",
+		"react": "^16.8.6",
+		"react-data-grid": "^7.0.0-canary.14",
+		"react-dom": "^16.8.6",
+		"react-google-maps": "^9.4.5",
+		"react-table": "^7.0.0",
+		"styled-components": "^5.0.1",
+		"webpack": "^1.15.0",
+		"webpack-dev-server": "^1.16.5"
+	}
+}
